@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="{% url 'home' %}">
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/526/526812.png"
+        alt=""
+        width="30"
+        height="24"
+        class="d-inline-block align-text-top"
+      />
+      Password Generator
+    </a>
+    <ul class="nav navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="{% url 'home' %}"
+          >Home <span class="visually-hidden">(current)</span></a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'about' %}">About</a>
+      </li>
+    </ul>
+  </div>
+</nav>
